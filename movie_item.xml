@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="12dp"
+    android:background="#121212">
 
     <TextView
         android:id="@+id/movie_title"
@@ -11,19 +12,32 @@
         android:layout_height="wrap_content"
         android:text="Movie Title"
         android:textStyle="bold"
-        android:textSize="18sp"/>
+        android:textSize="20sp"
+        android:textColor="#FF00FF" 
+        android:shadowColor="#8000FF"  
+        android:shadowRadius="8"
+        android:fontFamily="monospace"/>
 
     <TextView
         android:id="@+id/movie_year"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Year"
-        android:textSize="14sp"/>
+        android:textSize="16sp"
+        android:textColor="#00FFFF"  
+        android:shadowColor="#0080FF"  
+        android:shadowRadius="6"
+        android:fontFamily="monospace"/>
 
     <TextView
         android:id="@+id/movie_genre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Genre"
-        android:textSize="14sp"/>
+        android:textSize="16sp"
+        android:textColor="#FFEA00"
+        android:shadowColor="#FF8000" 
+        android:shadowRadius="6"
+        android:fontFamily="monospace"/>
+
 </LinearLayout>
